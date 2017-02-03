@@ -6,5 +6,4 @@ Rails.application.routes.draw do
  end
 
   resources :products
-  devise_for :users
 end
