@@ -24,8 +24,9 @@ Rails.application.routes.draw do
     collection do
       post :checkout
     end
-
   end
 
-
+  namespace :account do
+     resources :orders
+  end
 end
