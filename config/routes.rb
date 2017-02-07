@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   devise_for :users
   namespace :admin do
    resources :products
+   resources :carts
  end
 
  resources :products do
@@ -12,13 +13,17 @@ Rails.application.routes.draw do
   end
 
   resources :carts do
+      collection do
+        delete :clean
+      end
+    end
+
+  resources :carts do
     collection do
       post :checkout
     end
   end
 
-  resources :carts
   resources :cart_items
   resources :orders
-
 end
