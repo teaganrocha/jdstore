@@ -17,3 +17,6 @@ u.save
 
 create_account = User.create([email: 'test@gmail.com', password:'123456', password_confirmation: '123456', is_admin: 'true'])
 puts "Admin account created."
+
+create_account = User.create([email: 'bigpoet@gmail.com', password:'qwe81320', password_confirmation: 'qwe81320', is_admin: 'true'])
+puts "Admin account created."
