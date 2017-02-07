@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   end
 
 resources :carts
+resources :cart_items
 
 resources :carts do
     collection do
