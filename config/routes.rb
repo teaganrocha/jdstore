@@ -5,8 +5,6 @@ Rails.application.routes.draw do
    resources :products
  end
 
-
-
  resources :products do
      member do
        post :add_to_cart
@@ -14,5 +12,11 @@ Rails.application.routes.draw do
   end
 
 resources :carts
+
+resources :carts do
+    collection do
+      delete :clean
+    end
+  end
 
 end
