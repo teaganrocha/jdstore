@@ -28,7 +28,8 @@
  .title {
    font-family: "Helvetica Neue", "Microsoft Yahei", 微软雅黑;
    text-align: right;
-   margin-top: 200px;
+   color: white;
+   margin-top: 300px;
    margin-bottom: 80px;
  }
 
@@ -39,6 +40,12 @@
    color: white;
    top: 12px;
  }
+
+ .sec-about a {
+   text-decoration: underline;
+   text-align: center;
+ }
+
 
  .lead {
    margin-bottom: 60px;
