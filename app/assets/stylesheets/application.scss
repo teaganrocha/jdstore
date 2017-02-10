@@ -19,16 +19,16 @@
  @import "font-awesome";
 
  .jumbotron {
-   background-image:url('https://ww1.sinaimg.cn/large/006tKfTcgy1fcj3s1skhvj30hs0bv0tb.jpg');
+   background-image:url('https://ww1.sinaimg.cn/large/006tKfTcgy1fclh69ali2j31kw11pe83.jpg');
    background-repeat: no-repeat;
    background-size: cover;
    padding-bottom: 110px;
-   color: #999999;
+   color: white;
  }
 
  .title {
    font-family: "Helvetica Neue", "Microsoft Yahei", 微软雅黑;
-   text-align: right;
+   text-align: left;
    margin-top: 300px;
    margin-bottom: 80px;
  }
@@ -36,14 +36,14 @@
  .slogan {
    margin-top: 10px;
    margin-bottom: 50px;
-   text-align: right;
-   color: #999999;
+   text-align: left;
+   color: white;
    top: 12px;
  }
 
  .lead {
    margin-bottom: 60px;
-   text-align: right;
+   text-align: left;
    color: white;
  }
 
