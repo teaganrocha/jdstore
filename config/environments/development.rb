@@ -64,7 +64,7 @@ Rails.application.configure do
     enable_starttls_auto: true,
     user_name: ENV["bigpoet_test_iR4T7q"],    #api_user
 
-    password: ENV["GTXWrKJYVIkz2AP5"]       #api_key
+    password: ENV["0btFk5qN2VR184gY"]       #api_key
 
     }
 
