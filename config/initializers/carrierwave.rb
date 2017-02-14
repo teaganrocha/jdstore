@@ -3,17 +3,17 @@ CarrierWave.configure do |config|
     config.storage :fog
     config.fog_credentials = {
       provider:              'AWS',
-      aws_access_key_id:     ENV["AKIAIEH5OXXFNBXLKMQQ"],      # 你的 key
+      aws_access_key_id:     ENV["AKIAJ4ER5VVFMXME4GDQ"],      # 你的 key
 
 
-      aws_secret_access_key: ENV["V2LHv/JnmnToA/rXjRYajfR9T6fHqpQGXXEUksvn"],      # 你的 secret key
+      aws_secret_access_key: ENV["rDlSzEILTHxhrdYgIwMhglU8nLrlMALiW+LjyJhD"],      # 你的 secret key
 
 
       region:                'ap-northeast-1' # 你的 S3 bucket 的 Region 位置
 
 
     }
-    config.fog_directory  = ENV["fullstack2017"] # 你设定的 bucket name
+    config.fog_directory  = ENV["fullstackshop"] # 你设定的 bucket name
 
 
 
